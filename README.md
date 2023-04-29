@@ -11,13 +11,13 @@
 ### prismaClient.ts - Seeds the database and displays entries
 
 ## Run Dev
-Clone Repo
-cd into challenge
-Run 'npm install'
-To create the database run 'npx prisma migrate dev --name init'
-To seed the database run 'npx ts-node prismaClient.ts'
-To run the server run 'npm run start'
-To see Prisma Studio run 'npx prisma studio'
+#### Clone Repo
+#### cd into challenge
+#### Run 'npm install'
+#### To create the database run 'npx prisma migrate dev --name init'
+#### To seed the database run 'npx ts-node prismaClient.ts'
+#### To run the server run 'npm run start'
+#### To see Prisma Studio run 'npx prisma studio'
 
 
 # API Calls
