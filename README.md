@@ -48,10 +48,10 @@
 #### curl http://localhost:3000/getMonthlyInterestAccrued/1
 
 ## Tests
-### Use the following command to run the tests on the interestAccrued method from /src/ 
-#### node ./src/tests.js
+#### Use the following command to run the tests on the interestAccrued method from /src/ 
+##### node ./src/tests.js
 
 
 ## Notes: 
-### Originally planned to use a date library but the built in date manipulation methods were sufficient for this challenge.
-### Tried to use Prisma createMany feature to seed the database but I kept getting the error that it doesn't exist
+#### Originally planned to use a date library but the built in date manipulation methods were sufficient for this challenge.
+#### Tried to use Prisma createMany feature to seed the database but I kept getting the error that it doesn't exist
