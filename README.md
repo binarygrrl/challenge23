@@ -21,35 +21,35 @@
 
 
 ## API Calls
-### Get all records for balance history
+#### Get all records for balance history
 #### GET http://localhost:3000/getAllBalances
 
-### Get all balance history for userId
+#### Get all balance history for userId
 #### GET http://localhost:3000/getBalanceListByUser/1
 
-### Get last balance listed for userId
+#### Get last balance listed for userId
 #### GET http://localhost:3000/getCurrentBalanceByUser/1
 
-### Get monthly interest accrued for userId
+#### Get monthly interest accrued for userId
 #### GET http://localhost:3000/getMonthlyInterestAccrued/1
 
 
 ## cURL Calls
-### Get all balance records for all users
+#### Get all balance records for all users
 #### curl http://localhost:3000/getAllBalances
 
-### Get balance list for userId
+#### Get balance list for userId
 #### curl http://localhost:3000/getBalanceListByUser/1
 
-### Get current balance for userId
+#### Get current balance for userId
 #### curl http://localhost:3000/getCurrentBalanceByUser/1
 
-### Get monthly interest accrued for userId
+#### Get monthly interest accrued for userId
 #### curl http://localhost:3000/getMonthlyInterestAccrued/1
 
 ## Tests
-#### Use the following command to run the tests on the interestAccrued method from /src/ 
-##### node ./src/tests.js
+#### Use the following command to run the tests on the interestAccrued method from /src/
+#### node ./src/tests.js
 
 
 ## Notes: 
