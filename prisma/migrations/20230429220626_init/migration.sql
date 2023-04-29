@@ -1,0 +1,10 @@
+-- CreateTable
+CREATE TABLE "BalanceHistoryX" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "userId" INTEGER NOT NULL,
+    "txId" INTEGER NOT NULL,
+    "date" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "balance" REAL NOT NULL,
+    "amount" REAL NOT NULL,
+    "type" TEXT NOT NULL
+);
