@@ -20,18 +20,18 @@
 #### To see Prisma Studio run 'npx prisma studio'
 
 
-# API Calls
-// Get all records for balance history
-GET http://localhost:3000/getAllBalances
+## API Calls
+### Get all records for balance history
+#### GET http://localhost:3000/getAllBalances
 
-// Get all balance history for userId
-GET http://localhost:3000/getBalanceListByUser/1
+### Get all balance history for userId
+#### GET http://localhost:3000/getBalanceListByUser/1
 
-// Get last balance listed for userId
-GET http://localhost:3000/getCurrentBalanceByUser/1
+### Get last balance listed for userId
+#### GET http://localhost:3000/getCurrentBalanceByUser/1
 
-// Get monthly interest accrued for userId
-GET http://localhost:3000/getMonthlyInterestAccrued/1
+### Get monthly interest accrued for userId
+#### GET http://localhost:3000/getMonthlyInterestAccrued/1
 
 
 # cURL Calls
