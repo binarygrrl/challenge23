@@ -1,16 +1,16 @@
 # cNote Coding Challenge for Amber Dunn
 
-# Included Files: 
-## ERD Drawing for BalanceHistory table and directly related entities
-## Architecture Design for simple system including User Portal, Admin Portal (VPN), Centralized API, and Database
-## schema.prisma - Prisma schema for the BalanceHistory table
-## /src/calcInterestAcc.js - Accrued Interest Calculation Method
-## /src/index.js - Express API 
-## /src/tests.js - Custom tests for Accrued Interest Calculation Method
-## /src/testDataSample.js - Data Sample for Test Cases
-## prismaClient.ts - Seeds the database and displays entries
+## Included Files: 
+### ERD Drawing for BalanceHistory table and directly related entities
+### Architecture Design for simple system including User Portal, Admin Portal (VPN), Centralized API, and Database
+### schema.prisma - Prisma schema for the BalanceHistory table
+### /src/calcInterestAcc.js - Accrued Interest Calculation Method
+### /src/index.js - Express API 
+### /src/tests.js - Custom tests for Accrued Interest Calculation Method
+### /src/testDataSample.js - Data Sample for Test Cases
+### prismaClient.ts - Seeds the database and displays entries
 
-# Run Dev
+## Run Dev
 Clone Repo
 cd into challenge
 Run 'npm install'
